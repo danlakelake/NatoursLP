@@ -2,3 +2,6 @@
 .DS_Store
 
 # Project-specific ignores
+
+# Node
+/node_modules

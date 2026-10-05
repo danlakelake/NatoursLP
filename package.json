@@ -1,0 +1,22 @@
+{
+  "name": "NatoursLP",
+  "version": "1.0.0",
+  "description": "Landing page for Natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danlakelake/NatoursLP.git"
+  },
+  "author": "Danlakelake04",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danlakelake/NatoursLP/issues"
+  },
+  "homepage": "https://github.com/danlakelake/NatoursLP#readme",
+  "devDependencies": {
+    "sass": "^1.105.1"
+  }
+}
