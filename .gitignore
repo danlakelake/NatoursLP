@@ -4,4 +4,4 @@
 # Project-specific ignores
 
 # Node
-/node_modules
+/node_modules/
