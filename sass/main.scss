@@ -11,10 +11,11 @@
 
 // Components
 @import "components/button";
+@import "components/composition";
 
 // Layout
 @import "layout/grid";
 @import "layout/header";
 
 // Pages
-@import "pages/home.scss";
+@import "pages/home";
