@@ -2,9 +2,17 @@
 $primary: #55c57a;
 $primary-light: #7ed56f;
 $primary-dark: #28b485;
+
+$secondary-light: #ffb900;
+$secondary-dark: #ff7730;
+
+$tertiary-light: #2998ff;
+$tertiary-dark: #5643fa;
+
 $white: #fff;
 $grey: #777;
 $grey-light: #f7f7f7;
+$grey-light-2: #eee;
 $black: #000;
 
 // Fonts
@@ -14,4 +22,20 @@ $default-font-size: 1.8rem;
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 6rem;
+
+// Box Shadows
+$box-shadow-btn-hv: 0 10px 20px rgba($black, 0.2);
+$box-shadow-btn-act: 0 5px 10px rgba($black, 0.2);
+$box-shadow-btn-text-hv: 0 5px 10px rgba($black, 0.2);
+$box-shadow-btn-text-act: 0 0.5rem 1rem rgba($black, 0.15);
+$box-shadow-card: 0 1.5rem 4rem rgba($black , 0.15);
+$box-shadow-card-secondary: 0 1.5rem 4rem rgba($black , 0.4);
+$box-shadow-card-tertiary: 0 2.5rem 4rem rgba($black, 0.5);
+
+// Text Shadows
+$text-shadow-primary: 0.5rem 1rem 2rem rgba($black, 0.2);
+
+// Animations
+$title-animation-left: moveInLeft 1s ease-out;
+$title-animation-right: moveInRight 1s ease-out;
 

@@ -1,7 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  //   font-size: 16px;
   line-height: 1.7;
   color: $grey;
   padding: 3rem;
@@ -18,7 +17,7 @@ body {
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 35px;
-    animation: moveInLeft 1s ease-out;
+    animation: $title-animation-left;
   }
 
   &--sub {
@@ -26,7 +25,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 17.4px;
-    animation: moveInRight 1s ease-out;
+    animation: $title-animation-right;
   }
 }
 
@@ -43,7 +42,7 @@ body {
 
   &:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
-    text-shadow: 0.5rem 1rem 2rem rgba($black, 0.2);
+    text-shadow: $text-shadow-primary;
   }
 }
 
