@@ -34,14 +34,14 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, $primary-light, $primary-dark);
+  background-image: $title-gradient;
   background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
 
   &:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    transform: $title-hover-skew;
     text-shadow: $text-shadow-primary;
   }
 }
