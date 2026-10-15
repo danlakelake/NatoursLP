@@ -14,7 +14,7 @@
     border-bottom: 3px solid transparent;
     width: 100%;
     display: block;
-    transition: all 0.3s;
+    transition: $secondary-transition;
 
     &:focus {
       outline: none;
@@ -37,7 +37,7 @@
     margin-left: 2rem;
     margin-top: 0.7rem;
     display: block;
-    transition: all 0.3s;
+    transition: $secondary-transition;
   }
 
   &__input:placeholder-shown + &__label {

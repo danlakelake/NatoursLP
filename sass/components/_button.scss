@@ -7,7 +7,7 @@
     padding: 15px 40px;
     display: inline-block;
     border-radius: 100px;
-    transition: all 0.2s;
+    transition: $primary-transition;
     position: relative;
     font-size: $default-font-size;
 
@@ -61,7 +61,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    transition: all 0.4s;
+    transition: $quaternary-transition;
   }
 
   &--animated {
@@ -79,7 +79,7 @@
     text-decoration: none;
     border-bottom: 1px solid $primary;
     padding: 3px;
-    transition: all 0.2s;
+    transition: $primary-transition;
   }
 
   &:hover {

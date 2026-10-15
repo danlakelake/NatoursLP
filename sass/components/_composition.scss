@@ -6,7 +6,7 @@
     box-shadow: $box-shadow-card-secondary;
     position: absolute;
     z-index: 10;
-    transition: all 0.2s;
+    transition: $primary-transition;
     outline-offset: 2rem;
     cursor: pointer;
 

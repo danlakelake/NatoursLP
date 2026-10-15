@@ -25,7 +25,7 @@
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
     backface-visibility: hidden;
-    transition: all 0.5s;
+    transition: $tertiary-transition;
   }
 
   &__text {
@@ -42,7 +42,7 @@
     font-size: 1.7rem;
     text-align: center;
     opacity: 0;
-    transition: all 0.5s;
+    transition: $tertiary-transition;
     backface-visibility: hidden;
   }
 
