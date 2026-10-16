@@ -6,10 +6,15 @@
   box-sizing: inherit;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   box-sizing: border-box;
+}
+
+section {
+  scroll-margin-top: -25rem;
 }
