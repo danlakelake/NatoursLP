@@ -10,6 +10,7 @@ body {
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 60px;
+  text-align: center;
 
   &--main {
     display: block;
@@ -18,9 +19,13 @@ body {
     letter-spacing: 35px;
     animation: $title-animation-left;
 
+    @include respond(tab-land) {
+      font-size: 50px;
+    }
+
     @include respond(phone) {
-      letter-spacing: 1rem;
-      font-size: 5rem;
+      font-size: 40px;
+      letter-spacing: 2rem;
     }
   }
 
@@ -31,8 +36,14 @@ body {
     letter-spacing: 17.4px;
     animation: $title-animation-right;
 
+    @include respond(tab-land) {
+      letter-spacing: 1.7rem;
+      font-weight: 400;
+    }
+
     @include respond(phone) {
-      letter-spacing: 0.5rem;
+      letter-spacing: 1rem;
+      font-size: 15px;
     }
   }
 }

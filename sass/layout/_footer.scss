@@ -15,11 +15,19 @@
     @include respond(tab-port) {
       margin-bottom: 6rem;
     }
+
+    @include respond(phone) {
+      margin-bottom: 4rem;
+    }
   }
 
   &__logo {
     width: 15rem;
     height: auto;
+
+    @include respond(phone) {
+      width: 10rem;
+    }
   }
 
   &__navigation {
