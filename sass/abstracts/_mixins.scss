@@ -6,10 +6,10 @@
   }
 }
 
-@mixin centerhv($top: 50%, $x: -50%, $y: -50%) {
-  position: absolute;
+@mixin centerhv($position: absolute, $top: 50%, $left: 50%, $x: -50%, $y: -50%) {
+  position: $position;
   top: $top;
-  left: 50%;
+  left: $left;
   transform: translate($x, $y);
 }
 
