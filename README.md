@@ -6,6 +6,10 @@ Landing page for Natours, built with HTML, CSS, and Sass.
 
 Natours LP is a landing page project developed as part of a Udemy course focused on CSS and Sass.
 
+## Live Demo
+
+[View Live Demo](https://natourslp.netlify.app/)
+
 The project focuses on modern CSS techniques, responsive web design, animations, and Sass architecture to create an attractive and maintainable user interface.
 
 ## Technologies
