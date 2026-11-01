@@ -1017,6 +1017,22 @@ body {
   color: #55c57a;
   transform: translateX(1rem);
 }
+.navigation__link--github:link, .navigation__link--github:visited, .navigation__link--github:hover, .navigation__link--github:active {
+  background-image: none;
+  background-color: transparent;
+  background-size: auto;
+  transform: none;
+  color: inherit;
+}
+.navigation__link--github:hover .github-icon {
+  filter: invert(0%) sepia(1%) saturate(7455%) hue-rotate(333deg) brightness(87%) contrast(98%);
+}
+.navigation__link--github .github-icon {
+  width: 4.5rem;
+  height: auto;
+  filter: invert(1);
+  transition: all 0.3s;
+}
 .navigation__checkbox:checked ~ .navigation__background {
   transform: scale(80);
 }
