@@ -43,13 +43,6 @@ $green-gradient-card: linear-gradient(
   $primary-dark
 );
 
-$secondary-gradient: linear-gradient(
-  to right bottom,
-  rgba($secondary-light, 0.8),
-  rgba($secondary-dark, 0.8)
-);
-
-
 $title-gradient: linear-gradient(to right, $primary-light, $primary-dark);
 
 // Box Shadows
