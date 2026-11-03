@@ -8,7 +8,7 @@
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
-    background-image: $secondary-gradient, url(../img/hero.jpg);
+    background-image: $bg-green-gradient, url(../img/hero.jpg);
   }
 
   @include respond(phone) {
